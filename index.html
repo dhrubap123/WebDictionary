@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictafact dictionary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="mainContainer">
+            <section class="searchSection">
+                <input type="text" id="textInput" onclick="empty()">
+                <button class="textSearchContainer"><img src="./search_24dp_50B498_FILL0_wght400_GRAD0_opsz24.svg"
+                        id="textSearch" onclick="meaningFind()"></button>
+            </section>
+
+            <section class="wordSection">
+                <h2 id="textOutput">Search in the above box to know the meaning of any word !!!</h2>
+                <button id="textAudioContainer"><img src="./volume_up_24dp_50B498_FILL0_wght400_GRAD0_opsz24.svg"
+                        id="textAudio" onclick="playAudio()" hidden></button>
+            </section>
+
+            <section class="meaningSection">
+                <h3 id="Meaning">Your searched meaning will appear here...</h3>
+
+                <div id="textMeaning1">
+                    <p id="textPartOfSpeech1"></p>
+                    <p id="textDefinition1"></p>
+                    <p id="textExample1"></p>
+                </div>
+
+                <div id="textMeaning2">
+                    <p id="textPartOfSpeech2"></p>
+                    <p id="textDefinition2"></p>
+                    <p id="textExample2"></p>
+                </div>
+
+            </section>
+        </div>
+
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
