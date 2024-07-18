@@ -129,7 +129,7 @@ body{
 
 @media (max-width: 1023px) {
     #textOutput{
-        font-size: 1.7rem;
+        font-size: 1.3rem;
         color: #1b4338;
     }
 }
@@ -169,7 +169,7 @@ body{
 }
 
 .meaningSection h3{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: #3e8e79c2;
     margin-bottom: 13px;
 }
